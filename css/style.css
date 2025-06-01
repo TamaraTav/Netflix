@@ -133,3 +133,51 @@ header .header-right .header-text {
 .watch-all .left img {
     height: 38px;
 }
+
+/* main content */
+.main-content {
+    padding: 0 70px 30px;
+}
+
+
+/* description */
+.description {
+    margin: 70px 0;
+    border-top: 1px solid rgb(163, 163, 163);
+    border-bottom: 1px solid rgb(163, 163, 163);
+    padding: 15px;
+    text-align: center;
+    font-size: 18px;
+}
+
+
+/* videos */
+.videos .header {
+    display: flex;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.videos .header h2 {
+    padding-top: 8px;
+    margin-left: 6px;
+}
+
+.video {
+    position: relative;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.video > div {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.video > .play {
+    pointer-events: none;
+    width: 50px;
+    position: absolute;
+    bottom: 40px;
+    left: 20px;
+}

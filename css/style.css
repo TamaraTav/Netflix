@@ -9,7 +9,6 @@ body {
     color: white;
 }
 
-
 /* general */
 
 img {
@@ -180,6 +179,34 @@ header .header-right .header-text {
     position: absolute;
     bottom: 40px;
     left: 20px;
+}
+
+
+
+/* More Details */
+.info-header {
+    margin-top: 80px;
+    margin-bottom: 10px;
+}
+
+.grid-5 {
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    column-gap: 15px;
+}
+
+@media(max-width: 1600px) {
+    .grid-5 {
+        grid-template-columns: repeat(4,1fr);
+    }
+}
+
+.more-details .grid-5 {
+    font-size: 18px;
+}
+
+.cast {
+    margin-top: 20px;
 }
 
 

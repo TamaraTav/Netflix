@@ -220,6 +220,14 @@ header .header-right .header-text {
 }
 
 
+/* Coming soon */
+.coming-soon .grid-5 span {
+    display: block;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+
 
 
 /* modal */

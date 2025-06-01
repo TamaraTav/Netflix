@@ -182,7 +182,6 @@ header .header-right .header-text {
 }
 
 
-
 /* More Details */
 .info-header {
     margin-top: 80px;
@@ -207,6 +206,17 @@ header .header-right .header-text {
 
 .cast {
     margin-top: 20px;
+}
+
+/* more-like-this */
+
+.more-like-this img {
+    cursor: pointer;
+    width: 100%;
+}
+
+.more-like-this .grid-5, .coming-soon .grid-5 {
+    row-gap: 15px;
 }
 
 

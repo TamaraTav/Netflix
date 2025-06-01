@@ -246,6 +246,34 @@ header .header-right .header-text {
 }
 
 
+/* select and saqartvelo's class */
+.select-cont {
+    position: relative;
+    margin: 40px 0 20px;
+}
+
+.select-cont img {
+    width: 20px;
+    position: absolute;
+    top: 14px;
+    left: 10px;
+    filter: invert(51%) sepia(1%) saturate(2%) hue-rotate(6deg) brightness(87%) contrast(88%);
+}
+
+select {
+    padding-left: 35px;
+    width: 150px;
+    height: 48px;
+    background-color: #000;
+    color: white;
+    border-color: #333;
+}
+
+.saqartvelo {
+    color: #737373;
+}
+
+
 
 
 
